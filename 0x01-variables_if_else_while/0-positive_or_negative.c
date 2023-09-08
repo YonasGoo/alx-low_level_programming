@@ -4,7 +4,7 @@
 
 
 /**
- * main - entry point 
+ * main - entry point
  *
  * Return:always return 0 (sucess)
  *
@@ -18,13 +18,13 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%d is postive\n", n);
+		printf("%d is positive\n", n);
 	} else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	} else
 	{
 		printf("%d is negative\n", n);
-        }
+	}
 	return (0);
 }
