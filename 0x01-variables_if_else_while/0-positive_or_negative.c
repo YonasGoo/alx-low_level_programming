@@ -1,9 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+
+/**
+ * main - entry point 
+ *
+ * Return:always return 0 (sucess)
+ *
+ */
 int main(void)
 {
 	int n;
