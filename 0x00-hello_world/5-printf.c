@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main -Enrty point
+ * main - Enrty point
  *
  * Retrun: Always 0 (Sucess)
  */
