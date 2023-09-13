@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _isalpha(int c)
+ * _isalpha(int c) - main function
  *
  * Return: return 1 if letter, return 0 otherwise
  *
- * c - character
+ * @c - character
  */
 int _isalpha(int c)
 {
