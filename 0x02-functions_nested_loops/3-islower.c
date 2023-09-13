@@ -2,7 +2,7 @@
 /**
  * _islower - function
  *
- * c: character
+ * @c: character
  *
  * Return: 1 if true, 0 if false
  *
