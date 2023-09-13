@@ -3,7 +3,7 @@
  * print_last_digit - main function
  * @n: the number to be evaluated
  *
- * Return: alwyas 0
+ * Return: last digit of n
  *
  */
 
@@ -14,8 +14,7 @@ int print_last_digit(int n)
 	if (lastDigit < 0)
 	{
 		lastDigit = -lastDigit;
+		_putchar(lastDigit + '0');
+		return (n % 10);
 	}
-
-	_putchar(lastDigit + '0');
-	return (n % 10);
 }
