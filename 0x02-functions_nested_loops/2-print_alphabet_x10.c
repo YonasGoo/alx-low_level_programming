@@ -5,7 +5,7 @@
  * 
  */
 
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 	char start = 'a';
 	char end = 'z';
