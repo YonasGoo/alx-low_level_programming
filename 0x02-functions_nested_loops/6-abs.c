@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _abs(int) - main function
+ * _abs - main function
  *
- * @n - the integer value 
+ * @n: the integer value
  *
  * Return: less than 0 n, greater or equal to zero n times minus 1
  *
