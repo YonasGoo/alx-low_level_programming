@@ -2,7 +2,8 @@
 /**
  * add - main function
  *
- * num1 and num2: the two integers to be added
+ * @num1: integer one
+ * @num2: integer two
  *
  * Return: the addition of two numbers
  *
