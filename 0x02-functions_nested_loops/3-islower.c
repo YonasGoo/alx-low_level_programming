@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * _islower - function
  *
  * c: character
