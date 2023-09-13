@@ -1,19 +1,19 @@
 #include "main.h"
 /**
  * main - Entry point
+ *
  * Return: Always 0 (Sucess)
  * 
  */
-
 void print_alphabet_x10(void)
 {
-	char start = 'a';
-	char end = 'z';
-	int repeat = 10;
+	char s = 'a';
+	char e = 'z';
+	int r = 10;
 
-	for (int i = 0; i < repeat; i++)
+	for (int i = 0; i < r; i++)
 	{
-		for (char alpha = start; alpha <= end; alpha++)
+		for (char alpha = s; alpha <= e; alpha++)
 		{
 			_puchar(alpha);
 		}
