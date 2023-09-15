@@ -1,24 +1,24 @@
 #include <stdio.h>
+
 /**
- * main - main function
+ * main -  main function
  *
- * Return: returns 0
+ * Return: (0) Success
  */
+
 int main(void)
 {
-    long int n = 612852475143;
-    long int a;
+	long int n, a;
 
-    for (a = 2; a <= n; a++)
-    {
-        if (n % a == 0)
-        {
-            n /= a;
-            a--;
-        }
-    }
-
-    printf("%ld\n", a);
-    return 0;
+	n = 612852475143;
+	for (a = 2; a <= n; a++)
+	{
+		if (n % a == 0)
+		{
+			n /= a;
+			a--;
+		}
+	}
+	printf("%ld\n", a);
+	return (0);
 }
-
