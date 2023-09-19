@@ -4,12 +4,13 @@
  * swap_int - swaps numbers
  * @a: firts int
  * @b: second int
- * return: we will c
+ * 
  */
 
 void swap_int(int *a, int *b)
 {
-	int * temp = &a;
-	*a = *b;
-	*b = *a;
+	int c = *a;
+	int d = *b;
+	*a = d;
+	*b = c;
 }
