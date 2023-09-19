@@ -2,8 +2,7 @@
 
 /**
  * reset_to_98(int *n) - changes to 98
- *
- * Return - returns the chaned number
+ * Return - returns nothing
  * @n: the pointer
  */
 
