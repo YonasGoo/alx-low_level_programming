@@ -2,7 +2,7 @@
 /**
  * _strcat - concats two arrays
  *
- * @dest: destination of concat 
+ * @dest: destination of concat
  * @src: source array to concat
  *
  * Return: char value
