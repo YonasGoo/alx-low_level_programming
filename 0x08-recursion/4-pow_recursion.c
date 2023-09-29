@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _pow_recursion - calculates the power of two numbers
+ * _pow_recursion: - calculates the power of two numbers
  *
  * @x: the base num
  * @y: the exponent num
