@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
- * main: the main function
+ * main - Entry point
  * @argc: the argument count
  * @argv: the argument vector
- * return: always 0
  *
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
