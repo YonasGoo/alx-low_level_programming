@@ -1,10 +1,17 @@
 #include <stdlib.h>
 #include <stdio.h>
-int main (int argc, char *argv[])
+/**
+ * main: the main function
+ * @argc: the argument count
+ * @argv: the argument vector
+ * return: always 0
+ *
+ */
+int main(int argc, char *argv[])
 {
-	if(argc > 1)
+	if (argc > 1)
 	{
 	printf("%d\n", argc);
 	}
-	return 0;
+	return (0);
 }
