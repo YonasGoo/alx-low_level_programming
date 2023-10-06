@@ -2,23 +2,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _calloc - calloc function
- * @nmemb: number of elements
- * @size: size of bytes
- * Return: pointer or void
+ * array_range - range of arrays
+ * @min: min range
+ * @max: max arrays
+ * Return: int value
  */
-void *_calloc(unsigned int nmemb, unsigned int size)
+int *array_range(int min, int max)
 {
-	char *t;
-	unsigned int i;
+	int i;
+	int *t;
+	int len;
 
-	if (nmemb == 0 || size == 0)
+	if (min > max)
 		return (NULL);
-	t = malloc(nmeb * size);
+	len = 0;
+	for (i = min; i <= max; i++)
+		len++;
+	t = malloc(sizeof(int) * len);
 	if (t == NULL)
 		return (NULL);
-	for (i = 0; i < nmemb * size; i++)
-		t[i] = 0;
 
+	i = 0;
+	while (min <= max)
+	{
+		t[i] = min;
+		i++;
+		min++;
+	}
 	return (t);
 }
