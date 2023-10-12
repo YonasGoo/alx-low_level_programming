@@ -4,7 +4,7 @@
 /**
  * main - main function
  * @argc: arguments
- * @argv: array to argc
+ * @argv: array of args
  * Return: return something
  */
 int main(int argc, char *argv[])
@@ -28,5 +28,4 @@ int main(int argc, char *argv[])
 	}
 	printf("Error\n");
 	exit(98);
-		
 }
