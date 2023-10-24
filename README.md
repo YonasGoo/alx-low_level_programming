@@ -1,6 +1,6 @@
 # ALX-Low_level_pogramming
 # Low-level Programming & Algorithm 
-#Projects
+# Projects
 ### 1. [0x00. Hello, World](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x00-hello_world)
 ### 2. [0x01. Variables, if, else, while](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x01-variables_if_else_while)
 ### 3.[0x02. Functions, nested loops](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x02-functions_nested_loops)
@@ -18,8 +18,7 @@
 ### 15. [0x0E. Structures, typedef](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x0E-structures_typedef)
 ### 16. [0x0F. Function pointers](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x0F-function_pointers)
 ### 17. [0x10. Variadic functions](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x10-variadic_functions)
-### 19. [0x11. printf](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x12-singly_linked_lists)
-### 20. [0x10. printf] (https://github.com/gitabebe/printf) printf project
+### 19. [0x11. printf](https://github.com/gitabebe/printf) **printf project**
 ### 20. [0x12. Singly linked lists](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x12-singly_linked_lists)
 
 ### Credit
