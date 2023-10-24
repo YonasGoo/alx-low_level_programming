@@ -22,7 +22,6 @@
 ### 20. [0x12. Singly linked lists](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x12-singly_linked_lists)
 
 ### Credit
-[pwntheweb](twitter.com/pwntheweb)
 To all the collaborators 
 
 
