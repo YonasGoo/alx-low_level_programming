@@ -13,10 +13,10 @@ An introductory programming day that helps you start your journey into C program
 ### [0x02. C - Functions, nested loops](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x02-functions_nested_loops)
 
 In this section, you'll learn about functions and working with nested loops to solve more complex problems.
-### (0x03. C - Debugging](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x03-debugging)
+### [0x03. C - Debugging](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x03-debugging)
 
 Debugging is a critical skill in software development. This section introduces you to debugging techniques in C.
-### (0x04. C - More functions, more nested loops](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x04-more_functions_nested_loops)
+### [0x04. C - More functions, more nested loops](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x04-more_functions_nested_loops)
 
 Building on the previous sections, you'll explore more advanced functions and nested loops.
 ### [0x05. C - Pointers, arrays, and strings](https://github.com/pwntheweb/alx-low_level_programming/tree/main/0x05-pointers_arrays_strings)
