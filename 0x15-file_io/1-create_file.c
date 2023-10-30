@@ -21,7 +21,7 @@ int create_file(const char *filename, char *text_content)
 		text_content = "";
 
 	file_permissions = S_IRUSR | S_IWUSR;
-	open_flags = 0_CREAT | 0_WRONLY | 0_TRUNC;
+	open_flags = O_CREAT | O_WRONLY | O_TRUNC;
 
 	file_descriptor = open(filename, open_flags, file_permissions);
 	if (file_descriptor == -1)
