@@ -23,7 +23,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (text_content == NULL)
 		return (1);
 
-	open_flags = 0_WRONLY | 0_APPEND;
+	open_flags = O_WRONLY | O_APPEND;
 	file_descriptor = open(filename, open_flags);
 	if (file_descriptor == -1)
 		return (-1);
