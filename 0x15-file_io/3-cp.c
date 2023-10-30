@@ -26,14 +26,14 @@ int main(int argc, char *argv[])
 		print_error_and_exit(97, "Usage: cp file_form file_to");
 	}
 
-	file_from = open(argv[1], 0_RDONLY);
+	file_from = open(argv[1], O_RDONLY);
 	if (file_from == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 
-	file_to = open(argv[2], 0_WRONLY | 0_CREAT | 0_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
+	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
 	if (file_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
